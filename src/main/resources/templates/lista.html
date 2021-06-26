@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+  <head>
+    <title>Lista de Empregos</title>
+    <meta http-equiv="Content-Type" content="charset=UTF-8" />
+  </head>
+
+  <body>
+  <h1>Formulário de emprego</h1>
+  <a href="/add"> Adicionar um novo emprego</a><br>
+  
+  <div th:each="emprego : ${empregos}">
+  	<h4 th:inline="text">[[${emprego.titulo}]] na [[${emprego.empresa}]] </h4>
+  	<p th:text="${emprego.descricao}"></p> 
+  </div>
+  
+  </body>
+
+</html>

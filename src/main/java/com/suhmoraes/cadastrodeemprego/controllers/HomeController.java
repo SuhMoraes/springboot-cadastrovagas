@@ -1,4 +1,4 @@
-package com.suhmoraes.cadastrodeemprego;
+package com.suhmoraes.cadastrodeemprego.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
