@@ -8,9 +8,9 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.suhmoraes.cadastrodeemprego.Emprego;
+
+import com.suhmoraes.cadastrodeemprego.model.Emprego;
 import com.suhmoraes.cadastrodeemprego.repository.EmpregoRepository;
 
 @Controller

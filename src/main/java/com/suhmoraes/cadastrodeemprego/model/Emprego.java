@@ -1,4 +1,4 @@
-package com.suhmoraes.cadastrodeemprego;
+package com.suhmoraes.cadastrodeemprego.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
